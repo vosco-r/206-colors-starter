@@ -62,9 +62,12 @@ footer {
   header {
     background-color: #2b2b2b;
   }
-
+  .col-3 {
+    width: 50%;
+  }
   #column-1 {
     background-color: #2b5e2b;
+    /* width: 100%; */
   }
 
   #column-2 {
@@ -73,10 +76,11 @@ footer {
 
   #column-3 {
     background-color: #e3e3df;
+    width: 100%;
   }
 
   footer {
-    background-color: #ffffff;
+    background-color: #fffff9;
   }
   
 }
@@ -85,9 +89,11 @@ footer {
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
   header {
-    background-color: ;
+    background-color: #68fde3;
   }
-
+  .col-3 {
+    width: 33.3%;
+  }
   #column-1 {
     background-color: #9e9f54;
   }
